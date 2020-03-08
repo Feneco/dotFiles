@@ -1,0 +1,50 @@
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" alternatively, pass a path where Vundle should install plugins
+"call vundle#begin('~/some/path/here')
+
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+
+source ~/.vim/pluginrc
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
+" Put your non-Plugin stuff after this line
+
+set wildmenu
+set wildmode=longest:full,full
+
+set ruler
+set rnu
+
+set autochdir
+
+set foldmethod=indent
+set foldlevel=99
+nnoremap <space> za
+
+set ignorecase
+set smartcase
+set hlsearch
+set incsearch
+map <F2> :noh<CR>
+
+let g:airline_powerline_fonts = 1
+
+map <F3> :NERDTreeToggle<CR>
+
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+let g:syntastic_python_pylint_args = "-E"

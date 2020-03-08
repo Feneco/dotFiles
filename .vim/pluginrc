@@ -1,0 +1,8 @@
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+Plugin 'tpope/vim-surround'
+Plugin 'tmhedberg/SimpylFold'
+Plugin 'preservim/nerdtree'
+Plugin 'scrooloose/syntastic'
+Plugin 'tell-k/vim-autopep8'
+Plugin 'valloric/youcompleteme'

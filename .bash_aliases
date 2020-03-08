@@ -1,0 +1,8 @@
+alias l='ls -1'
+alias la='ls -a'
+alias lla='ls -la'
+alias vi='vim'
+alias m='less'
+alias df='df -h'
+alias dush='du -sh'
+alias config='/usr/bin/git --git-dir=/home/wagner/.cfg/ --work-tree=/home/wagner'
