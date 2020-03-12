@@ -34,4 +34,4 @@ unset __conda_setup
 # <<< conda initialize <<<
 
 # Custom bash prompt via kirsle.net/wizards/ps1.html
-export PS1="\[$(tput bold)\]\[$(tput setaf 1)\][\[$(tput setaf 3)\]\u\[$(tput setaf 2)\]@\[$(tput setaf 4)\]\h \[$(tput setaf 5)\]\W\[$(tput setaf 1)\]]\[$(tput setaf 7)\]\n\[$(tput setaf 1)\]\\$ \[$(tput setaf 3)\]>\[$(tput sgr0)\]"
+export PS1="\[$(tput bold)\]\[$(tput setaf 1)\][\[$(tput setaf 3)\]\u\[$(tput setaf 2)\]@\[$(tput setaf 4)\]\h \[$(tput setaf 5)\]\W\[$(tput setaf 1)\]]\[$(tput setaf 7)\]\n\[$(tput setaf 1)\]\\$ \[$(tput setaf 3)\]> \[$(tput sgr0)\]"
