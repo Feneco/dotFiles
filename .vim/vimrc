@@ -17,6 +17,8 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
+set path+=**
+
 set wildmenu
 set wildmode=longest:full,full
 
@@ -34,6 +36,8 @@ set smartcase
 set hlsearch
 set incsearch
 map <F2> :noh<CR>
+
+nnoremap <Leader>y "+y
 
 let g:airline_powerline_fonts = 1
 

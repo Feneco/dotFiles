@@ -10,4 +10,4 @@ set foldmethod=indent
 set encoding=utf-8
 
 noremap <F8> :call Autopep8()<CR>
-
+autocmd BufWritePre * %s/\s\+$//e
